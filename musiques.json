@@ -1,0 +1,57 @@
+[
+    {
+        "musique": "One Take",
+        "descriptionMusique": "J'avais découvert cette musique sur youtube à travers un live performance pour la chaîne Genius, j'aime beaucoup cette musique car elle me met instantannement de bonne humeur et me donne une sorte d'adrénaline, un boost d'énergie. Lorsque j'écoute cette musique j'ai l'impression que je peux courrir indéfiniment ! Musique idéale sous la douche ! :D",
+        "artiste": "Lil Tjay",
+        "lien": "Musiques/one-take-official-audio.mp3",
+        "cover": "Covers/cover-onetake.jpg",
+        "album": "True 2 Myself",
+        "youtube": "https://www.youtube.com/watch?v=limnnesPzC0",
+        "spotify": "https://open.spotify.com/intl-fr/track/4uu7gKd1PffC7QEMcMk0Ro?si=a3b3fb0c8b724679",
+        "credit": "Interprété par Lil Tjay | Composé par Alphanso Cole, Lil Tjay | Produit par Ziggyonthekeycard | Source : Columbia Records"
+    },
+    {
+        "musique": "1999",
+        "descriptionMusique": "J'aime beaucoup cette musique mais également les autres musiques de cet artiste, en effet il porte bien son nom 'Sleepy Hallow', son style musical est essentiellement basé sur du 'chill', 'lofi'... Selon moi c'est une musique idéale pour les long trajets le soir, s'il faut une musique d'arrière plan pour le travail ou pour écouter une musique durant les temps de pluie ! ",
+        "artiste": "Sleepy Hallow",
+        "lien": "Musiques/1999-lyric-video.mp3",
+        "cover": "Covers/cover-1999.jpg",
+        "album": "Still Sleep?",
+        "youtube": "https://www.youtube.com/watch?v=88jaOGIXnnc",
+        "spotify": "https://open.spotify.com/intl-fr/track/5SnQILxl7lE7J8bRgM3NSb?si=6597ced3088f41e8",
+        "credit": "Interprété par Sleepy Hallow | Composé par Jeremy Soto, Johnatan Scott, Karel Jorge, Tegan Chambers | Produit par Great John, AP Supreme | Source : Winners Circle/RCA Records"
+    },
+    {
+        "musique": "Obsessed With You",
+        "descriptionMusique": "Cette musique me donne tellement d'énergie, de l'ambition pour me lever et accomplir des choses ! En effet, je trouve que cette musique me motive et me donne en quelque sorte, une certaine confiance en soi ! Cette musique aussi est parfaite pour les trajets en voiture avec des amis, pour s'ambiancer en voiture !",
+        "artiste": "Central Cee",
+        "lien": "Musiques/obsessed-with-you-official-video.mp3",
+        "cover": "Covers/cover-obsessed-with-you.jpg",
+        "album": "23",
+        "youtube": "https://www.youtube.com/watch?v=oP7KHC129RQ",
+        "spotify": "https://open.spotify.com/intl-fr/track/4PYfFHKfjYz6dwAtZhBy1z?si=9217a084eede4bb5",
+        "credit": "Interprété par Central Cee | Composé par Alexander Crossan, Nastylgia, Pink Pantheress | Produit par Central Cee, Mura Musa, Nastylgia, PinkPantheress | Source : Central Cee, Because Editions, BMG Publishing"
+    },
+    {
+        "musique": "WAIT FOR U",
+        "descriptionMusique": "J'ai découvert cette musique sur une vidéo style 'edit' sur TikTok, j'ai beaucoup aimé ce montage et j'ai donc moi même utilisé cette musique dans un de mes montages vidéos, au final je trouve que cette musique est plutôt relaxante et me permet de me détendre ! C'est une musique idéale pour se balader à pieds ou en voiture !",
+        "artiste": "Future",
+        "lien": "Musiques/wait-for-u-official-audio-ft-drake-tems.mp3",
+        "cover": "Covers/cover-wait-for-u.jpg",
+        "album": "I NEVER LIKED YOU",
+        "youtube": "https://www.youtube.com/watch?v=Y2QpQP8wPG8",
+        "spotify": "https://open.spotify.com/intl-fr/track/2WUEArGyLZm29UQ1PT7i3F?si=c4ec8cabbcc74b90",
+        "credit": "Interprété par Drake, Future, Tems | Composé par Isaac De Boni, Jacob Canady, Michael Mule, A.Graham, Flo, E. Bentley III,Israel Ayomide Fowobaje, Nayvadius Wilburn, Oluwatoroti Oke, Tejiri Akpoghene, Temilade Openiyi | Produit par ATL Jacob, FNZ, Tejiri Akpoghene, 1SRAEL, Sonic Major | Source : Epic/Freebandz, Pulse Publishing Administration, Universal Music Publishing"
+    },
+    {
+        "musique": "Chosen 1",
+        "descriptionMusique": "C'est une musique avec un ambiance un peu, voir beaucoup plus mélancolique que les autres musiques ci dessus, je trouve que c'est une musique parfaite lorsqu'on cherche une musique très calme qui n'a pas trop de bass ou quoi que ce soit... Personnellement je pense que cette musique est vraiment agréable pour se détendre !",
+        "artiste": "Polo G",
+        "lien": "Musiques/chosen-1-official-audio.mp3",
+        "cover": "Covers/cover-chosen1.jpg",
+        "album": "Die A Legend",
+        "youtube": "https://www.youtube.com/watch?v=7ALoFoQbVrU",
+        "spotify": "https://open.spotify.com/intl-fr/track/40QrLHWdsxyXLAdjJG4Rxs?si=83e9efc580e74d84",
+        "credit": "Interprété par Polo G | Composé par Jordan Knight, Polo G | Produit par JTK | Source : Columbia Records"
+    }
+]

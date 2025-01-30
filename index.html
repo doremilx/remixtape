@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sélection musicale de Rémi</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="icon-logo.png">
+  </head>
+  <body>
+    <div class="loading-screen">
+      <p>Chargement du site en cours, veuillez patienter !</p>
+      <div class="spinner"></div>
+    </div>
+    <!-- je vais créer un curseur personnalisé grâce à un tuto youtube -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+  
+    <header>
+      <div class="header-content">
+        <img src="icon-logo.png" alt="logo du site" class="logoSite">
+        <h1>Rémixtape</h1>
+      </div>
+      <h2>Un devoir de sélection musicale de LIN Rémi pour la SAÉ 1.05 en MMI</h2>
+    </header>
+
+
+    <div class="liste-musiques"></div>
+    <div class="musique-formulaire"></div>
+    
+    <div class="formulaire">
+    <form action="">
+      <h1>Suggérer une musique à ajouter sur cette page web</h1>
+      <p>Si vous voulez suggérer quoi que ce soit, une adresse e-mail valide sera demandé.</p>
+      <label for="titre">Titre de la musique</label>
+      <br>
+      <input type="text" id="titre" placeholder="Le titre de votre musique">
+<br>
+      <label for="artiste">L'artiste de cette musique</label>
+      <br>
+      <input type="text" id="artiste" placeholder="Le nom de l'artiste">
+<br>
+      <label for="description">Votre description de cette musique</label>
+      <br>
+      <textarea id="description" placeholder="Pourquoi cette musique ?" rows="2"></textarea>
+
+<br>
+      <label for="lienaudio">Le lien de votre musique</label>
+      <br>
+      <input type="url" id="lienaudio" placeholder="https://...">
+<br>
+      <label for="image">Le lien de l'image de votre musique</label>
+      <br>
+      <input type="url" id="image" placeholder="https://...">
+<br>
+
+      <label for="email">Votre adresse e-mail <strong class="oblige">*</strong></label>
+      <br>
+      <input type="email" id="email" placeholder="unebonnenotesvp@mail.com" required>
+<br>
+      <input type="button" value="Envoyer" class="bouton-envoi">
+      <div class="supprimer">
+<br>
+        <input type="button" value="Supprimer mes suggestions" class="clear">
+      </div>
+    </form>
+  </div>
+  <footer>
+    <p class="boutonCredits">Crédits</p>
+    <div class="BlocCredit" hidden>
+      <h3 class="enteteCredit">Musiques utilisées uniquement à des fins éducatives et non commerciales. Tous les droits de chaque œuvre appartiennent à leurs artistes respectifs.</h3>
+      <ul id="creditsAfficher"></ul>
+      <p class="piedCredit">Site fait par <a href="https://www.linkedin.com/in/rémi-lin-8856a9330/" target="_blank" alt="Lien de la page LinkedIn de LIN Rémi">LIN Rémi</a> || Contact : <a href="mailto:remi.lin2@edu.univ-eiffel.fr">remi.lin2@edu.univ-eiffel.fr</a></p>
+        <p> <strong>Hébergement</strong> : Le site est hébergé par l'IUT de l'Université Gustave Eiffel, située à Cité Descartes, Champs-sur-Marne.
+      </p>
+      <p>
+      <strong>Liens vers des services externes</strong> : Le site contient des liens vers des services tiers, tels que YouTube et Spotify. Nous déclinons toute responsabilité quant à leur contenu et aux pratiques de confidentialité de ces sites. Nous vous conseillons de consulter leurs politiques respectives avant toute utilisation.
+    </p>
+  <p><strong>Protection des données personnelles</strong> : Les informations collectées sur ce site sont traitées dans un fichier sécurisé par l'Université Gustave Eiffel, dans le cadre d'un projet éducatif. 
+        Vous avez la possibilité d'exercer vos droits relatifs aux données personnelles, comme la consultation, modification ou suppression, en contactant l'adresse suivante : <a href="mailto:remi.lin2@edu.univ-eiffel.fr">remi.lin2@edu.univ-eiffel.fr</a>.</p>
+
+      <p><strong>Propriété intellectuelle des contenus</strong> : Les éléments du site, notamment les fichiers audio, images et codes, respectent les lois en vigueur sur les droits d'auteur. 
+        Les sources externes utilisées sont mentionnées dans les commentaires du code ou sur cette page.
+        Toute utilisation ou reproduction des contenus présents sur ce site (textes, images, vidéos, etc.) nécessite une autorisation préalable, sauf mention contraire dans ce document.</p>
+      <p><strong>Gestion des données personnelles (RGPD)</strong> : Nous n'effectuons aucune collecte de données personnelles sans consentement. Si des données sont collectées, elles sont traitées par Philippe Gambette (<a href="mailto:philippe.gambette@univ-eiffel.fr">philippe.gambette@univ-eiffel.fr</a>) selon les principes du RGPD. </p>
+    <p> Pour plus de détails sur vos droits et la gestion de vos données, veuillez consulter le site de la <a href="https://www.cnil.fr/fr" target="_blank">CNIL</a>.</p>
+      <p>Promotion MMI1 (première année) de 2024-2025</p>
+    </div>
+  </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,306 @@
+body{
+    margin: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* pour le curseur personnalisé: */
+    cursor: none;
+    min-width: 1000px;
+}
+
+header {
+  text-align: center;
+  color: white;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+}
+
+.header-content {
+  display: flex; /* Disposition en ligne pour logo et h1 */
+  justify-content: center; /* Centre horizontalement le logo et h1 */
+  align-items: center; /* Centre verticalement */
+}
+
+.logoSite {
+  max-width: 100px;
+  background-color: white;
+  margin-right: 20px; /* Espacement entre le logo et le titre */
+}
+h1{
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+p,a{
+    font-family: "Montserrat", sans-serif;
+}
+audio{
+    display: none;
+}
+
+section{
+    background-color: aliceblue;
+    opacity: 0.75;
+    text-align: center;
+    margin-inline: auto;
+    padding: 10px;
+    max-width: 800px;
+    border-radius: 15px;
+    margin-block: 50px;
+    transition: all 0.4s;
+
+}
+section:hover{
+  color: white;
+    scale: 1.05;
+    background-color: #93a0ff;
+}
+
+section button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s;
+    padding-inline: 30px;
+  }
+  
+  section button:hover {
+    background-color: #0056b3;
+    scale: 1.1;
+  }
+
+  .cursor-dot{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .cursor-outline{
+    width: 30px;
+    height: 30px;
+    border: 2px solid hsla(0, 0%, 100%, 0.5);
+  }
+
+  .cursor-dot, .cursor-outline{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .formulaire {
+    font-family: "Montserrat", sans-serif;
+    background-color: aliceblue;
+    opacity: 0.75;
+    text-align: center;
+    margin-inline: auto;
+    padding: 10px;
+    max-width: 950px;
+    border-radius: 15px;
+    margin-block: 50px;
+    transition: all 0.4s;
+  }
+  .formulaire:hover {
+    scale: 1.05;
+    background-color: #7686ff;
+    color: white;
+    
+  }
+  .bouton-envoi{
+    font-size: 20px;
+    margin-top: 40px;
+    background-color: #007BFF;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+  }
+.bouton-envoi:active{
+  scale: 1.25;
+}
+
+  form h1{
+    font-size: 200%;
+  }
+form p{
+  font-size: 125%;
+  border-bottom: solid black 1px;
+  padding-bottom: 20px;
+}
+  input{
+    border: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    width: 500px;
+    text-align: center;
+    border: solid blue 1.5px;
+    margin-bottom: 15px;
+  }
+  textarea{
+    border: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    width: 500px;
+    text-align: center;
+    border: solid blue 1.5px;
+    margin-bottom: 15px;
+    max-width: 900px;
+    min-width: 500px;
+    max-height: 200px;
+    min-height: 50px;
+  }
+
+  label{
+    font-size: 25px;
+  }
+
+  img{
+    max-width : 250px;
+    height : auto;
+    float: left;
+    border-radius: 15px;
+    margin-right: 20px;
+  }
+
+  .youtube{
+    width: 50px;
+    margin-top: 1px;
+  }
+
+  .spotify{
+    width: 38px;
+  }
+.redirection{
+  margin-top: 50px;
+}
+.proposition{
+  text-align: center;
+  padding-bottom: 100px;
+  min-height: 200px;
+}
+
+.imgChoisie{
+    width: 250px; /* Taille de l'image */
+    height: 250px; /* Taille de l'image */
+    object-fit: cover; /* Recadre l'image pour qu'elle reste carrée */
+    border-radius: 15px; 
+    float: left;
+}
+
+.supprimer{
+  text-align: end;
+}
+
+.clear{
+  max-width: 300px;
+  border: 0;
+  background-color: rgb(250, 75, 148);
+  border-radius: 15px;
+}
+.clear:active{
+  scale: 1.05;
+}
+
+.boutonCredits{
+  text-align: right;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  color: aliceblue;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.boutonCredits:hover{
+  text-decoration: underline rgb(75, 75, 255);
+}
+
+.BlocCredit{
+  font-family: "Montserrat", sans-serif;
+  background-color: azure;
+  opacity: 0.65;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  max-width: 1920px;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.BlocCredit p{font-size: 1.3rem;}
+
+ul {
+  list-style-type: none;
+  font-size: 1.1rem;
+  max-width: 1920px;
+  opacity: 1;
+}
+
+li{
+  padding-bottom: 15px;
+  text-align: left;
+  opacity: 1;
+}
+.oblige{
+  color: red;
+}
+
+.enteteCredit{
+  border-bottom: solid black 2px;
+  padding-bottom: 20px;
+}
+
+.piedCredit{
+  border-top: solid black 1.5px;
+  padding-top: 10px;
+}
+
+
+
+
+
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(111, 63, 255, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  flex-direction: column; /* Ajouter cette ligne pour empiler le texte et le spinner */
+}
+
+.loading-screen p {
+  color: white;
+  margin-bottom: 200px; /* Espace entre le texte et le spinner */
+  font-size: 2em
+}
+
+.spinner {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+/* Animation de rotation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
