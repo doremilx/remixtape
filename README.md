@@ -6,8 +6,8 @@
 J'ai beaucoup aimé ce projet, j'ai réalisé mon premier site web "utile" et je l'ai personnalisé comme je le souhaitais.
 
 
-Lien du site web : http://lin.projetsmmichamps.fr/sae105/
-
+Lien du site web avec o2switch : http://lin.projetsmmichamps.fr/sae105/
+Lien du site web avec Github : https://doremilx.github.io/remixtape/
 
 ##Démarche xampp :
 1) Premièrement il faut avoir le logiciel/application xampp installé sur sa machine (sur ma machine personnelle dans mon cas)
